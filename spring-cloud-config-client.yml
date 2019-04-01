@@ -18,7 +18,7 @@ eureka:
 
 info:
   app.name: spring-cloud-config-client-dev
-  company: gaochaojin
+  company.name: gaochaojin
 ---
 server:
   port: 8102
@@ -34,4 +34,4 @@ eureka:
 
 info:
   app.name: spring-cloud-config-client-dev
-  company: gaochaojin
+  company.name: gaochaojin
