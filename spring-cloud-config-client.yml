@@ -16,6 +16,9 @@ eureka:
     serviceUrl:
       defaultZone: http://admin:admin@localhost:7001/eureka
 
+info:
+  app.name: spring-cloud-config-client-dev
+  company: gaochaojin
 ---
 server:
   port: 8102
@@ -28,3 +31,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://admin:admin@localhost:7001/eureka
+
+info:
+  app.name: spring-cloud-config-client-dev
+  company: gaochaojin
